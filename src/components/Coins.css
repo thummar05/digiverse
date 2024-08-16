@@ -1,0 +1,72 @@
+.coins-container {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 100px;
+  }
+  
+  .ex-cards {
+    display: flex;
+    align-items: center;
+ 
+  }
+  
+  .image {
+    margin-right: 10px;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+  .price {
+    margin-right: 10px;
+  }
+  
+  .coins-container {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 80px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .ex-cards {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .symbol {
+    /* margin-left: ; */
+    width: 200px;  
+  }
+  
+  .name {
+    flex-grow: 1;
+  }
+  
+  .price, .change {
+    width: 100px;  
+    text-align: center;
+  }
+  
+  
+.btns button{
+    height: 2rem;
+    background-color: orange;
+    border: none;
+    margin-left: 30px;
+    width: 5rem;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.btns {
+    margin-left: 12rem;
+}

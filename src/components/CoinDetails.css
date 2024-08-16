@@ -1,0 +1,65 @@
+.coindetail{
+    padding-left: 120px;
+    padding-top: 50px;
+  }
+  .time{
+      font-weight: bold;
+  }
+  
+  .coinimage img{
+      margin-top: 60px;
+  }
+  
+  .coinname{
+      font-weight: bold;
+      font-size: 27px;
+      margin-top: 50px;
+  }
+  .coinprice{
+      font-weight: bold;
+      font-size: 22px;
+      margin-top: 10px;
+  }
+  .coinprofit{
+      margin-top: 10px;
+      margin-left: 7px;
+    }
+  
+  .marketrank{
+      font-weight: bold;
+      font-size: 27px;
+      margin-top: 20px;
+      margin-left: 5px;
+  }
+  
+  .coindesc p{
+      margin-top: 15px;
+     
+  }
+  
+  .coindesc {
+      width: 20rem;
+  }
+  .btn button{
+      height: 2rem;
+      background-color: orange;
+      border: none;
+      width: 5rem;
+      border-radius: 10px;
+      font-weight: bold;
+      margin-bottom: 30px;
+      margin-left: 10px;
+  }
+
+  .coindetail{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  @media only screen and (max-width: 600px) {
+
+     .coindetail{
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+     }
+  }
